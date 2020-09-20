@@ -11,8 +11,8 @@ public class UrlLongRequest {
     @ApiModelProperty(required = true, notes = "Url to convert to short")
     private String longUrl;
 
-    @ApiModelProperty(notes = "Expiration datetime of url")
-    private Date expiresDate;
+ //   @ApiModelProperty(notes = "Expiration datetime of url")
+ //   private Date expiresDate;
 
     public String getLongUrl() {
         return longUrl;
@@ -22,11 +22,11 @@ public class UrlLongRequest {
         this.longUrl = longUrl;
     }
 
-    public Date getExpiresDate() {
-        return expiresDate;
-    }
+  //  public Date getExpiresDate() {
+    //    return expiresDate;
+    //}
 
-    public void setExpiresDate(Date expiresDate) {
-        this.expiresDate = expiresDate;
-    }
+  //  public void setExpiresDate(Date expiresDate) {
+   //     this.expiresDate = expiresDate;
+   // }
 }

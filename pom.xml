@@ -8,7 +8,7 @@
         <version>2.2.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.amarin</groupId>
+    <groupId>com.aquib</groupId>
     <artifactId>url-shortener-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>url-shortener-api</name>
