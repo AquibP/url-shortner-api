@@ -4,8 +4,10 @@
 
 git clone https://github.com/AquibP/url-shortner-api.git
 
-Make sure to have MySQL server locally
-Open the project in IDE of your choice and make necessary changes to application.properties to map with SQL Database
+Make sure to have MySQL server locally.
+
+Open the project in IDE of your choice and make necessary changes to application.properties to map with SQL Database.
+
 Build spring project
 Open localhost:8080/swagger-ui.html
 
