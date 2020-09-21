@@ -1,6 +1,6 @@
-URL Shortner API
+#URL Shortner API
 
-HOW TO USE
+##HOW TO USE
 
 git clone https://github.com/AquibP/url-shortner-api.git
 
@@ -9,7 +9,7 @@ Open the project in IDE of your choice and make necessary changes to application
 Build spring project
 Open localhost:8080/swagger-ui.html
 
-Example:
+##Example:
 Using Swagger make a post request by providing long URL as input and execute to get a short URL.
 
 long URL: "https://github.com/AquibP/url-shortner-api.git"
@@ -22,7 +22,7 @@ Append the short URL to "localhost:<port number>//. The URL should look like,
 
 Paste the URL in browser to get redirected to original URL
 
-Working: 
+##Working: 
 
 Introduction:
 The URL shortner api is used to create short URL by consuming long URL. The short URL will redirects automatically to the long URL.
