@@ -1,6 +1,6 @@
 # URL Shortner API
 
-## HOW TO USE
+## How to use
 
 git clone https://github.com/AquibP/url-shortner-api.git
 
