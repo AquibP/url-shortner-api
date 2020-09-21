@@ -22,8 +22,6 @@ public class UrlService {
     public String convertToShortUrl(UrlLongRequest request) {
         var url = new Url();
         url.setLongUrl(request.getLongUrl());
-//        url.setExpiresDate(request.getExpiresDate());
-//        url.setCreatedDate(new Date());
         var entity = urlRepository.save(url);
 
         return conversion.encode(entity.getId());
@@ -33,12 +31,6 @@ public class UrlService {
         var id = conversion.decode(shortUrl);
         var entity = urlRepository.findById(id)
                 .orElseThrow(() -> new EntityNotFoundException("There is no entity with " + shortUrl));
-
-//        if (entity.getExpiresDate() != null && entity.getExpiresDate().before(new Date())){
-//            urlRepository.delete(entity);
-//            throw new EntityNotFoundException("Link expired!");
-//        }
-
         return entity.getLongUrl();
     }
 }

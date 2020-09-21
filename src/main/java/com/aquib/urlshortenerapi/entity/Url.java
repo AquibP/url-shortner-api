@@ -14,12 +14,6 @@ public class Url {
     @Column(nullable = false)
     private String longUrl;
 
-//    @Column(nullable = false)
-//    private Date createdDate;
-//
-//    private Date expiresDate;
-
-
     public long getId() {
         return id;
     }
@@ -36,20 +30,4 @@ public class Url {
     public void setLongUrl(String longUrl) {
         this.longUrl = longUrl;
     }
-
-//    public Date getCreatedDate() {
-//        return createdDate;
-//    }
-//
-//    public void setCreatedDate(Date createdDate) {
-//        this.createdDate = createdDate;
-//    }
-//
-//    public Date getExpiresDate() {
-//        return expiresDate;
-//    }
-//
-//    public void setExpiresDate(Date expireDate) {
-//        this.expiresDate = expireDate;
-//    }
 }
