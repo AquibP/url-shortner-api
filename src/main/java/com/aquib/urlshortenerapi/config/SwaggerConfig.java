@@ -26,7 +26,7 @@ public class SwaggerConfig {
     private ApiInfo metadata(){
         return new ApiInfoBuilder()
                 .title("Url shortener API")
-                .description("API reference for developers")
+                .description("Home Task")
                 .version("1.0")
                 .build();
     }

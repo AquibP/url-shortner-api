@@ -22,7 +22,6 @@ public class Url {
         this.id = id;
     }
 
-
     public String getLongUrl() {
         return longUrl;
     }
