@@ -97,8 +97,6 @@ ARG: defines a variable that can be passed at build time.
 COPY: The last command tells Docker to COPY a few files from the local file-system, specifically a subfolder to the build directory, into the image in a given path
 ENTRYPOINT: allows you to configure a container that will run as an executable.
 
-x-special/nautilus-clipboard
-copy
-
-file:///home/aquib/Downloads/Architecture%20Diagram.png
+### Architecture Diagram
+![](images/Architecture%20Diagram.png)
 
