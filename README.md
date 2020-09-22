@@ -77,15 +77,28 @@ That’s it. Now the API endpoints will be visible through Swagger UI.
 ### Docker
 Docker is a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. 
 To dockerize our application we have used Docker's own build-file format: a Dockerfile. The file contains following commands :
+
 FROM openjdk:13jdk-alpine
+
 RUN addgroup -S spring && adduser -S spring -G spring
+
 USER spring:spring
+
 ARG JAR_FILE=target/*.jar
+
 COPY ${JAR_FILE} app.jar
+
 ENTRYPOINT ["java","-jar","/app.jar"]
+
 FROM: The keyword FROM, tells Docker to use a given image with its tag as build-base. If this image is not in the local library, an online-search on DockerHub, or on any other configured remote-registry, is performed
 RUN: With the RUN command, we're executing a shell command-line within the target system.
 USER: to specify a non-root user for containers to run as.
 ARG: defines a variable that can be passed at build time.
 COPY: The last command tells Docker to COPY a few files from the local file-system, specifically a subfolder to the build directory, into the image in a given path
 ENTRYPOINT: allows you to configure a container that will run as an executable.
+
+x-special/nautilus-clipboard
+copy
+
+file:///home/aquib/Downloads/Architecture%20Diagram.png
+
