@@ -1,0 +1,4 @@
+FROM mysql
+
+ENV MYSQL_DATABASE shortner
+COPY ./sql-scripts/ /docker-entrypoint-initdb.d/
